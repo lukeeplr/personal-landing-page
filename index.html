@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icon.ico" />
+    <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500,600,400,700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lucas Chaves</title>
+  </head>
+  <body>
+    <header class="header container">
+      <nav>
+        <ul class="header__menu">
+
+          <li>
+            <a class="header__link" href="#about">Sobre</a>
+          </li>
+
+          <li>
+            <a class="header__link" href="#projects">Projetos</a>
+          </li>
+
+          <li>
+            <a class="header__link" href="#contact">Contato</a>
+          </li>
+
+          <li class="header__line"></li>
+
+          <li>
+            <button id="theme-toggle" class="header__sun">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+              </svg>
+            </button>
+          </li>
+
+          <li>
+            <a href="#" id="resume" class="header__resume button">Resumo</a>
+          </li>
+
+          
+        </button>
+        
+      </ul>
+
+      <button class="header__bars">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+      </nav>
+    </header>
+    <!-- mobile nav -->
+
+    <div class="mobile-nav">
+      <nav>
+        <ul class="mobile-nav__menu">
+          <li>
+            <a href="#about" class="mobile-nav__link">Sobre</a>
+          </li>
+          <li>
+            <a href="#projects" class="mobile-nav__link">Projetos</a>
+          </li>
+          <li>
+            <a href="#contact" class="mobile-nav__link">Contato</a>
+          </li>
+          <li class="mobile-nav__link-line"></li>
+          <li>
+            <button id="theme-toggle" class="mobile-nav__sun">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
+            </svg>
+          </button></li>
+          <li><a href="" id="resume" class="mobile-nav__button button">Resumo</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-- /mobile nav -->
+
+    <main>
+      
+      <section class="hero container">
+        <img class="hero__image" src="/pfp.jpg" alt="Lucas Chaves">
+        <h2 class="hero__subtitle">Lucas Chaves</h2>
+        <h1 class="hero__title">DESENVOLVEDOR FRONT-END.</h1>
+        <p class="hero__description"><strong>Brasileiro</strong>, nascido em <strong>Alagoas</strong>. Apaixonado por música, e-sports e design. Graduando em <strong>Ciência da Computação</strong> pela <strong>UFAL</strong>, mergulhei no mundo da programação como um desenvolvedor <strong>Front-End</strong> e um entusiasta de <strong>UI/UX</strong>. Com uma visão única, pretendo tornar tudo por aqui mais <strong>vibrante</strong>.</p>
+        <a class="hero__button button" href="mailto:lukeeplr@gmail.com" target="_blank">Contato</a>
+      </section>
+      
+      <section id="about" class="about container section">
+        <div class="about__content">
+          <h2 class="about__title">Sobre mim</h2>
+          <p class="about__description">Me chamo Lucas, tenho 21 anos e estou cursando o 7º período de Ciência da Computação, atualmente atuo como desenvolvedor Front-End na ITAN Labs e estou trabalhando em alguns projetos pessoais.</p>
+          <p class="about__description">Comecei a me interessar por desenvolvimento em 2018, na época, trabalhei criando toda a interface de um fórum de uma startup que eu fazia parte. Logo após isso, em 2019, iniciei a graduação e expandi meus horizontes para outras áreas e tecnologias, até me estabelecer na posição atual.</p>
+          <p class="about__description">Muitas vezes perfeccionista, me divirto passando horas criando layouts, buscando a melhor combinação e distribuição de cores e só estarei satisfeito ao transformar o imaginado em realidade.</p>
+          <hr class="about__line"/>
+          <h3 class="about__subtitle">Tecnologias</h3>
+          <div class="about__techs-container">
+            <ul class="about__techs">
+              <li class="about__items">HTML5</li>
+              <li class="about__items">CSS</li>
+              <li class="about__items">JavaScript</li>
+              <li class="about__items">NodeJS</li>
+            </ul>
+            <div class="about__techs">
+              <li class="about__items">ReactJS</li>
+              <li class="about__items">Tailwind</li>
+              <li class="about__items">Bootstrap</li>
+              <li class="about__items">Python</li>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__img-wrapper">
+          <img class="about__img lazy loading" src="https://fakeimg.pl/820" data-src="pfp.jpg" alt="Lucas Chaves">
+        </div>
+      </section>
+
+      <section id="projects" class="work container section">
+        <h2 class="work__title">Projetos</h2>
+        <p class="work__description">Alguns dos projetos que trabalhei e tenho um carinho especial </p>
+        
+        <div class="work__container">
+          
+          <!-- projeto 1 -->
+          <h3 class="work__project-title">Fuzion-Network</h3>
+          <div class="work__image-wrapper work__image1">
+            <img class="lazy loading" src="https://fakeimg.pl/1800" data-src="/forum.png" alt="Projeto Portfolio">
+          </div>
+          <div class="work__project work__content1">
+            <div class="work__project-subtitle">Fuzion-Network</div>
+            <p class="work__project-description1">Um fórum para interação entre os úsuários da rede de servidores</p>
+            <p class="work__project-description2">Um lugar especial para os membros da rede de servidores, onde os usuários poderiam se cadastrar e desfrutar de várias funcionalidades como: criar tópicos, trocar mensagens, reportar erros, criar sugestões, se comunicar facilmente com a moderação e desfrutar de uma área de lazer.</p>
+            <a href="http://www.fuzion-network.com/forum/" target="_blank" class="button work__project-button">Website</a>
+          </div>
+          
+          <!-- projeto 2 -->
+          <h3 class="work__project-title">Website Discord</h3>
+          <div class="work__image-wrapper work__image2">
+            <img class="lazy loading" src="https://fakeimg.pl/1800" data-src="/discord.png" alt="Projeto Discord">
+          </div>
+          <div class="work__project work__content2">
+            <div class="work__project-subtitle">Website Discord</div>
+            <p class="work__project-description1">Recriação do web-site do Discord</p>
+            <p class="work__project-description2">Um projeto que usei para praticar a criação de layouts e responsividade, escolhi a landing page do Discord por ser um design que sempre me agradou bastante, além de ser um app que uso com muita frequência.</p>
+            <a href="https://github.com/lukeeplr/discord-website-build" class="button work__project-button" target="_blank">Github</a>
+          </div>
+          
+          <!-- projeto 3 -->
+          <h3 class="work__project-title">Plataforma GEINFRA</h3>
+          <div class="work__image-wrapper work__image3">
+            <img class="lazy loading" src="https://fakeimg.pl/1800" data-src="/geinfra.png" alt="Projeto GEINFRA">
+          </div>
+          <div class="work__project work__content3">
+            <div class="work__project-subtitle">Plataforma GEINFRA</div>
+            <p class="work__project-description1">Sistema da gerencia de infraestrutura</p>
+            <p class="work__project-description2">Um sistema de administração de ordens de serviço criado durante um projeto de extensão na universidade, capaz de cadastrar, gerir, programar e filtrar as ordens de serviço que a equipe de infra-estrutura recebe.</p>
+            <a href="https://github.com/lukeeplr/infrastructureadmin" class="button work__project-button" target="_blank">Github</a>
+          </div>
+          
+          <!-- projeto 4 -->
+          <h3 class="work__project-title">Landing page</h3>
+          <div class="work__image-wrapper work__image4">
+            <img class="lazy loading" src="https://fakeimg.pl/1800" data-src="/portfolio.png" alt="Projeto Portfolio">
+          </div>
+          <div class="work__project work__content4">
+            <div class="work__project-subtitle">Landing page</div>
+            <p class="work__project-description1">Meu portfolio pessoal</p>
+            <p class="work__project-description2">Um website dedicado a contar um pouco sobre mim, minha experiência e exibir alguns dos projetos que participei.</p>
+            <a href=# class="button work__project-button">Website</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="contact container section">
+        <h2 class="contact__title">Entre em contato</h2>
+        <p class="contact__description">
+          Para iniciar um novo projeto ou apenas discutir ideias, basta mandar uma mensagem. Respondo assim que possível.
+        </p>
+        <a href="mailto:lukeeplr@gmail.com" target="_blank" class="contact__button button">Mensagem</a>
+      </section>
+    </main>
+    <footer class="footer container section">
+      <h3 class="footer__title">~ Lucas Chaves ~</h3>
+      <div class="footer__links">
+          <a href="https://www.linkedin.com/in/lucas-chaves-881b6726b/" class="footer__social" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512" fill="currentColor"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg></a>
+          <a href="https://github.com/lukeeplr" class="footer__social" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512" fill="currentColor"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg></a>
+      </div>
+    </footer>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
