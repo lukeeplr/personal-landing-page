@@ -3,8 +3,8 @@
     top: 0;
     left: 0;
     z-index: 999;
-    width: 110vw;
-    height: 110vh;
+    width: 100vw;
+    height: 100vh;
     background-color: var(--clr-dark);
     display: none;
     justify-content: center;
